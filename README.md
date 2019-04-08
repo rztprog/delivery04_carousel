@@ -4,6 +4,19 @@
 
 Made a carrousel with vanilla JS
 
+## Quality criteria
+
+* Each click next image appear
+* Image in `<li>`
+* Vanilla JS (no framework)
+
+## Bonus criteria
+
+* Real images
+* Options forward & backward
+* Dot style
+* Darkmode
+
 ## Uses
 
 * HTML5
@@ -12,5 +25,7 @@ Made a carrousel with vanilla JS
 
 ## Specials thanks to
 
-* van11y.net/accessible-carrousel/ (For the logo)
+* [javascript.info](javascript.info) (Documentation)
+* [van11y.net](van11y.net) (Caroussel logo)
+
 
