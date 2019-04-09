@@ -7,12 +7,12 @@ Made a carrousel with vanilla JS
 ## Quality criteria
 
 * Each click next image appear
-* Image in `<li>`
+* Image in `<li>` ✅
 * Vanilla JS (no framework)
 
 ## Bonus criteria
 
-* Real images
+* Real images ✅
 * Options forward & backward
 * Dot style
 * Darkmode
