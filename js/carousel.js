@@ -3,10 +3,10 @@
 ////////// VARIABLES /////////
 //////////////////////////////
 
-let i = 0;
+let i = 1;
 let lis = document.getElementsByTagName("li");
 
-// Init the first img to block
+// Init the first img to display block
 lis[0].style.display = "block";
 
 let buttonFor = document.getElementsByClassName("button-img--forward")[0];  
@@ -22,25 +22,25 @@ buttonBac.addEventListener("click", () => i-- );
 //////////////////////////////
 
 function nextImg(){
-		// i++;
 
-		if(i >= 3){
-			i = 0;
+		if(i >= 3){ i = 0; }
+
+		switch (i) {
+			case 0:
+				lis[i].style.display =  "block";
+				lis[i+1].style.display =  "none";
+				lis[i+2].style.display = "none";
+				break;
+			case 1:
+				lis[i-1].style.display =  "none";
+				lis[i].style.display =  "block";
+				lis[i+1].style.display = "none";
+				break;
+			case 2:
+				lis[i-2].style.display =  "none";
+				lis[i-1].style.display =  "none";
+				lis[i].style.display = "block";
+				break;
 		}
-
-		if(i == 0){
-			lis[i].style.display =  "block";
-			lis[i+1].style.display =  "none";
-			lis[i+2].style.display = "none";
-		}else if (i == 1){
-			lis[i-1].style.display =  "none";
-			lis[i].style.display =  "block";
-			lis[i+1].style.display = "none";
-		}else if (i == 2){
-			lis[i-2].style.display =  "none";
-			lis[i-1].style.display =  "none";
-			lis[i].style.display = "block";
-		}
-
-}
+};
 
