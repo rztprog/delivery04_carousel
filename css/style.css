@@ -7,7 +7,7 @@
 
 .li{
 	list-style-type: none;
-	display: inline-block;
+	display: none;
 }
 
 .button-img--forward,
@@ -19,6 +19,8 @@
 	color: #FFF;
 	background-color: #333;
 }
-/* .img{ */
-/* 	border: ; */
-/* } */
+
+.img{
+	width: 400px;
+	height: 250px;
+}
