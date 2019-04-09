@@ -1,8 +1,13 @@
 .header,
 .carousel,
-.button-img{
+.button-img,
+.darkmode{
 	display: flex;
 	justify-content: center;
+}
+
+.darkmode{
+	margin-top: 10px;
 }
 
 .li{
@@ -24,3 +29,4 @@
 	width: 400px;
 	height: 250px;
 }
+
