@@ -6,16 +6,16 @@ Made a carousel with vanilla JS
 
 ## Quality criteria
 
-* Each click next image appear
-* Image in `<li>` ✅
-* Vanilla JS (no framework)
+* Each click next image appear :white_check_mark:
+* Image in `<li>` :white_check_mark:
+* Vanilla JS (no framework) :white_check_mark:
 
 ## Bonus criteria
 
-* Real images ✅
-* Options forward & backward
+* Real images :white_check_mark:
+* Options forward & backward (forward :white_check_mark:)
 * Dot style
-* Darkmode
+* Darkmode :white_check_mark:
 
 ## Uses
 
