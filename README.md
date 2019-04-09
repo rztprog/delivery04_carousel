@@ -1,8 +1,8 @@
 ![https://van11y.net](./img/carrousel.jpeg)
 
-# Delivery 04 | Carrousel in JS
+# Delivery 04 | Carousel in JS
 
-Made a carrousel with vanilla JS
+Made a carousel with vanilla JS
 
 ## Quality criteria
 
