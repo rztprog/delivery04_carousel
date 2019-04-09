@@ -1,3 +1,24 @@
-.header{
+.header,
+.carrousel,
+.button-img{
 	display: flex;
+	justify-content: center;
 }
+
+.li{
+	list-style-type: none;
+	display: inline-block;
+}
+
+.button-img--forward,
+.button-img--backward{
+	width: 100px;
+}
+
+.body{
+	color: #FFF;
+	background-color: #333;
+}
+/* .img{ */
+/* 	border: ; */
+/* } */
