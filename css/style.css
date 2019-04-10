@@ -26,7 +26,10 @@
 }
 
 .img{
-	width: 400px;
+	width: 100vw;
 	height: 250px;
 }
 
+.header{
+	background-color: #444;
+}
