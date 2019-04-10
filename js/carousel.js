@@ -24,6 +24,7 @@ buttonBac.addEventListener("click", () => i-- );
 let y = 1;
 let dark = document.getElementsByClassName("darkmode-button")[0];
 let body = document.getElementsByClassName("body")[0].style;
+let header = document.getElementsByClassName("header")[0].style;
 dark.onclick = darkmode;
 
 
@@ -60,14 +61,16 @@ function nextImg(){
 
 function darkmode(){
 	switch(y) {
-		case 1:
+		case 1:		// LIGHT
 			body.backgroundColor = "#FFF";
 			body.color = "#000";
+			header.backgroundColor = "#DDD";
 			y--;
 			break;
-		default:
+		default: 	// DARK
 			body.backgroundColor = "#333";
 			body.color = "#FFF";
+			header.backgroundColor = "#444";
 			y++;
 			break;
 	}
