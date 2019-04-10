@@ -8,27 +8,31 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
 		<title>Carousel in JS</title>
 	</head>
-	<body class="body" onload="autoRoll()">
+	<body class="body">
 		<header class="header">
 			<h1 class="h1">JS Carousel</h1>
+			<div class="darkmode">
+				<button class="darkmode-button"></button>
+			</div>
 		</header>
 		<main class="main">
 			<div class="carousel">
 				<ul>
-					<li class="li"><img src="https://via.placeholder.com/400x251" alt=""></li>
-					<li class="li"><img src="https://via.placeholder.com/400x252" alt=""></li>
-					<li class="li"><img src="https://via.placeholder.com/400x253" alt=""></li>
+					<li class="li"><img src="./img/ashley-jurius.jpg" class="img" alt="man push women"></li>
+					<li class="li"><img src="./img/clark-tibbs.jpg" class="img" alt="do something great neon style"></li>
+					<li class="li"><img src="./img/gary-butterfield.jpg" class="img" alt="stay hydrated neon style"></li>
 				</ul>
 			</div>
 			<div class="button-img">
 				<button class="button-img--backward"> < </button>
 				<button class="button-img--forward"> > </button>
 			</div>
-			<div class="darkmode">
-				<button class="darkmode-button">Darkmode</button>
-			</div>
 		</main>
-		<footer>
+		<footer class="footer">
+			<ul class="social">
+				<li class="social-link linkedin"><img class="social-image" src="./img/codewars.png" alt=""></li>
+				<li class="social-link codewars"><img class="social-image" src="./img/linkedin.png" alt=""></li>
+			</ul>
 		</footer>
 		<script src="./js/carousel.js"></script>
 	</body>

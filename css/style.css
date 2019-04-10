@@ -1,14 +1,11 @@
 .header,
 .carousel,
 .button-img,
-.darkmode{
+.darkmode,
+.social{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
-
-.darkmode{
-	margin-top: 10px;
 }
 
 .li{
@@ -33,4 +30,19 @@
 
 .header{
 	background-color: #444;
+}
+
+.social-link{
+	list-style-type: none;
+}
+
+.social-image{
+	margin-right: 5px;
+	max-width: 50px;
+	max-height: 50px;
+}
+
+.social-image:hover{
+	max-width: 60px;
+	max-height: 60px;
 }
